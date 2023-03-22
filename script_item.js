@@ -71,16 +71,6 @@ const addItem = async () => {
   const name = document.getElementById('name-to-add').value
   const price = document.getElementById('price-to-add').value
 
-  // const options = {
-  //   method: 'POST',
-  //   header: { 'Content-Type': 'application/json' },
-  //   body: { item: item, name: name, price: price },
-  //   credentials: 'include'
-  // }
-  // await fetch(`http://${backendIPAddress}/items`, options)
-  //   .then(response => response.text())
-  //   .catch(error => console.error(error))
-
   var myHeaders = new Headers()
   myHeaders.append('Content-Type', 'application/json')
 
